@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> دورة HTML</title>
+        <style>table, th, td {
+            border: 1px solid blue;
+        }</style>
+
+    </head>
+    <body dir="rtl">
+        <h1> دورة HTML</h1>
+        <img src="html.png" height="150" width="150">
+        <h2>   وصف الدورة: </h2>
+        <p>
+            <b>HTML</b> هي طريقة لكتابة وهيكلة صفحات الويب، 
+            وتعلم اضافة النصوص والروابط والصور والفيديووما إلى ذلك. 
+        </p>
+        <p> <b>
+            مواعيد المحاضرات يومياً:</b><br>
+            من الساعة
+             8:00<sub>am</sub>
+             وحتى الساعة 
+             11:00<sub>am</sub>
+        </p>
+        <p> <b> المستويات لهذه الدورة: </b><br>
+            1<sup> st</sup> level: اساسيات HTML <br>
+            2<sup>nd</sup>  level: مفاهيم متقدمة في HTMl 
+        </p><hr>
+        <h2> أهداف الدورة:</h2>
+        <ol type="1">
+            <li> التعرف على مفهوم HTML</li>
+            <li>تعلم كل tag والغرض منها </li>
+        </ol>
+
+        <h2> متطلبات الدورة</h2>
+        <ul type="circle">
+            <li>متصفح (سفاري، قوقل كروم)</li>
+            <li>محرر نصوص </li>
+        </ul>
+        <table> 
+        <tr>
+            <th> اليوم</th>
+            <th>المكان</th>
+        </tr>
+        <tr>
+            <td>الاحد والاثنين</td>
+            <td>Class A</td>
+
+        </tr>
+        <tr>
+            <td> الثلاثاء والاربعاء</td>
+            <td>Class B</td>
+        </tr>
+        
+        </tr>
+        <tr>
+            <td colspan="2"> 
+                الخميس عن بعد
+            </td>
+        </tr>
+        </table>
+        <hr> 
+        <h2>نموذج الانضمام للدورة </h2>
+        <form>
+            <label for='name'>  اسم المستخدم:</label>
+            <input type="text" id = "name">
+            <input type="radio" id="male" name="gender">
+            <lable for="male"> ذكر </lable>
+            <input type="radio" id="female" name="gender">
+            <lable for="male"> انثى </lable>
+            <p> من اين سمعت عن HTML?</p>
+            <input type="checkbox" id="friend" name="friend">
+            <label for="friend">صديق</label>
+            <input type="checkbox"  id="books" name="books">
+            <label for="books">كتب</label>
+            <label for="city">اختر مدينتك:</label>
+            <select id="city" name="city">
+                <option value="Riyadh"> الرياض</option>
+                <option value="Jeddah"> جدة</option>
+                <option value="Almadinah"> المدينة</option>
+
+            </select><br><br>
+            <input type="submit" value="انضمام">
+        </form>
+
+    </body>
+</html>
